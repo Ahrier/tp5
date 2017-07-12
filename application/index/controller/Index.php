@@ -8,7 +8,7 @@ class Index extends Controller
 {
     public function index()
     {
-        echo 1;
+        echo 11;
         $sum = 0;
         $arr = [1,'-1','-2',3,-4];
         foreach ($arr as $v){
